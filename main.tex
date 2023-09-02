@@ -1,0 +1,138 @@
+%-------------------------
+% Resume Template
+% Author : Ruchita Das
+%------------------------
+
+%-------------------------------------------------------------------------------
+%                Document & Class
+%-------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{resume_config}
+
+% NOTE: <- font size adjustment is available in the resume_config.cls file on the left hand side. ex. \LoadClass[#pt]{article} where # is 10, 11 or 12
+
+% NOTE: If you need to adjust the space between any two lines, use this function: \vspace{#pt} where # is your number. ex. \vspace{-5pt} decreases the space between lines
+
+%-------------------------------------------------------------------------------
+%                Resume Starts Here
+%-------------------------------------------------------------------------------
+
+\begin{document}
+
+\Header
+    {Ruchita Das} % name
+    {(+91)xxxxx-xxxxx} % phone number
+    {ruchita.das01@gmail.com} % email
+    {ruchitadas3938} % https://linkedin.com/in/ruchita3938
+    {ruchita98} % https://github.com/ruchita98
+\
+%-------------------------------------------------------------------------------
+
+%                Education
+%-------------------------------------------------------------------------------
+
+\section{Education}
+
+\EducationExperience
+    {IIT Kharagpur} % school name
+    {Bachelors and Masters (Dual Degree) in Mathematics and Computing (CGPA: $8.23/ 10$)} % credential name
+    {2015 - 2020} % date of graduation
+    {Kharagpur, India} % city, country of school
+    {Micro specialization in Optimization Theory \& Applications}
+
+\vspace{-10pt}
+%-------------------------------------------------------------------------------
+
+%                Work Experience
+%-------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\WorkExperience
+    {Full stack iOS Developer} % job title
+    {Microsoft} % company name
+    {April 2022 -- present} % beginning and end of employment. If currently employed write " - Present"
+    {Hyderabad, India} % city, country of employment
+    {MD mobile service}
+    {
+        \item Implemented key Defender security features, including Threat Vulnerability Management and Malicious Certificates \& Profiles Detection. 
+    }
+    {
+        \item Designed and implemented scalable microservices architecture to host web APIs, ensuring high availability.
+        \item Developed cron jobs and web jobs to automate the fetching and processing of installed apps, certificates \& profiles data from MDM-enrolled iOS devices.
+        \item Successfully supported approximately \textbf{$1$ million } active devices of \textbf{$5,000$} tenants distributed across multiple geos.
+    }
+
+\vspace{5pt}
+\WorkExperience
+    {iOS Developer} % job title
+    {Microsoft} % company name
+    {July 2020 -- March 2022} % city, country of employment
+    {Hyderabad, India} % beginning and end of employment. If currently employed write " - Present"
+    {Microsoft Defender for iOS}
+    {
+        \item Led the development of key features of MDE iOS app. Streamlined the user interface and enhanced app functionality, resulting in a $20\%$ increase in user engagement, earning an \textbf{'On the Spot Award'} for demonstrating exceptional customer obsession and setting new standards for user experience.
+        \item Integrated the enterprise Defender app with the consumer backend service to enhance the consumer offering with family device management capabilities.
+    }
+    {
+        \item Successfully enabled management features for family devices, catering to a user base of $100,000$ active devices.
+    }
+
+\vspace{5pt}
+\WorkExperience
+    {Summer Analyst} % company name
+    {Goldman Sachs} % job title
+    {May 2019 -- July 2019} % city, country of employment
+    {Bangalore, India} % beginning and end of employment. If currently employed write " - Present"
+    {Franchise Analytics, Strategy and Technology (FAST) Division: Securities}
+    {
+        \item Developed a framework for Knowledge based Dynamic Dashboard which helps user to input queries in a specified text format to get the output in tabular form.
+    }
+    {
+        \item Designed a configurable structure that accesses input datasets and questions to create instant dashboards.
+        \item Identified patterns in key business questions asked by the users. Structured the questions into series of filter-aggregation.
+        \item Developed a rule-based parser that can identify all filters, aggregations and their correct order from user query.
+        \item Converted the text into structured text and built a system to generate SQL queries.
+        }
+
+
+\section{Projects}
+\Project
+    {Stochastic Systems Lab, Dept. of CSA | IISc. Bangalore | Prof. Shalabh Bhatnagar}
+    {May '18 - July '18}
+    {
+        \item Worked in a \textit{research project} on \textbf{Vehicular Path Planning Problem}. The objective was to find optimal way of choosing a path to minimize average waiting time of all vehicles in the network.
+    }
+    {
+        \item Designed a novel approach of modelling the traffic as Markov decision process. Defined congestion tuple of roads as a state vector. Computed aggregated waiting time of vehicles between state transitions as a cost to minimize. Deployed a Q-learning system that resulted in reducing average delay compared to baseline, static routing policy.
+    }
+    {Reinforcement Learning | Sumo Simulator | TraCI (Traffic Control Interface)}
+
+\vspace{5pt}
+
+\Project
+    {Vinod Gupta School of Management (VGSoM) | IIT Kharagpur | Prof. Swagato Chatterjee}
+    {Feb '20 - May '20}
+    {
+        \item Extracted useful specifications of a domain specific B2B (Business-to-Business) software from its customer reviews using topic modeling approach. 
+    }
+    {
+        \item Utilized a dataset consisting of full review texts of various 'Customer Relationship Management' (CRM) softwares from more than $5,000$ users. First baseline (LSA, LDA) models were built and then optimal models were deployed that produced the highest coherence value. Also, distributions of topics, important keywords and total number of review-text associated with each topic were calculated to assess the strength of our model.
+    }
+    {Web scraping | Beautifulsoup | Exploratory Data Analysis | Topic Modeling}
+
+\section{Skills}
+
+\vspace{1pt}
+
+\SkillList{
+    \SkillItem{Languages}{: Swift, Objective-C, C Sharp, C++, Python}
+    \SkillItem{Tools and Frameworks}{: UIKit, SwiftUI, Dotnet, Docker, AzureSQL, OpenCV, AutoCAD, SolidWork, LaTeX}
+}
+
+\vspace{-2pt}
+\end{document}
+
+%-------------------------------------------------------------------------------
+%                Resume Ends Here
+%-------------------------------------------------------------------------------
